@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "gwar",
+  "version": "${version}",
+  "name": "Gwar",
+  "description": "A mod that adds a new dimension",
+  "authors": [
+    "CyborgCabbage"
+  ],
+  "contact": {
+    "website": "https://www.curseforge.com/members/therealcyborgcabbage/projects"
+  },
+  "license": "MIT",
+  "icon": "assets/gwar/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "cyborgcabbage.gwar.client.GwarClient"
+    ],
+    "main": [
+      "cyborgcabbage.gwar.Gwar"
+    ]
+  },
+  "mixins": [
+    "gwar.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.1",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}

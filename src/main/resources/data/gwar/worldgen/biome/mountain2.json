@@ -1,0 +1,32 @@
+{
+  "surface_builder": "minecraft:grass",
+  "depth": 2.000,
+  "scale": 0.15,
+  "temperature": 0.7,
+  "downfall": 0.4,
+  "precipitation": "rain",
+  "temperature_modifier": "none",
+  "category": "taiga",
+  "player_spawn_friendly": false,
+  "effects": {
+    "sky_color": 7907327,
+    "fog_color": 12638463,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 6977792,
+    "foliage_color": 13986304,
+    "grass_color_modifier": "none"
+  },
+  "starts": [],
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave"
+    ]
+  },
+  "features": [
+    [
+    ]
+  ]
+}
